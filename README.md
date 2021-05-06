@@ -6,4 +6,5 @@ Rishabh Sinha (MCA/10006/19)
 Danish Murmu (MCA/10016/19)
 
 disclaimer:
-We were not able to host multiple pages so only login in page works
+We were not able to host multiple pages so only login in page works.
+i have attached screenshots of working pages in the repository.
