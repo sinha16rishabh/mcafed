@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap");
+
+
+body {
+    font-family: "Mulish", sans-serif;
+    background-color: #fdfbde;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.asked {
+    display: flex;
+    max-width: 777px;
+    height: 570px;
+    flex-direction: column;
+    background-color: white;
+    padding: 70px;
+    margin-left: 20%;
+    border-radius: 33px;
+    text-align: center;
+    
+}
+
+
+.asked_profile {
+    display: flex;
+    align-items: center;
+}
+.asked_profile-img {
+    background-image: url("resizer.jpg");
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 18px;
+}
+.asked_profile-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.asked_profile-content h3 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 32px;
+}
+
+
+.nav{
+    border:3px solid #0F1C52;
+    margin-bottom:50px;
+   
+}
+.nav a{
+    float: left;
+    color:rgb(15, 4, 4);
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+.nav .logout{
+    float: right;
+}
+.nav a:hover{
+    background-color: #0F1C52;
+    color:rgb(250, 248, 248);
+}
+
+.hide {
+    display: none;
+  }
+      
+  .details:hover + .hide {
+    display: block;
+    color: black;
+  }
